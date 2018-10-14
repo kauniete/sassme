@@ -6,7 +6,7 @@
 3. make some reverse engineering and construct the scss file to compile the resulting css file 
 ## HINTS
 - only two colours and two mesures are defined...
-- Use variables, nesting, parenting, partials and operations 
+- Use variables, nesting, parenting, partials and operations   
 check the documentation:   
 https://sass-lang.com/guide  
 https://tutorialzine.com/2016/01/learn-sass-in-15-minutes  
