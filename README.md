@@ -7,7 +7,7 @@
 ## HINTS
 - only two colours and two mesures are defined...
 - Use variables, nesting, parenting, partials and operations 
-check the documentation: 
-https://sass-lang.com/guide
-https://tutorialzine.com/2016/01/learn-sass-in-15-minutes
+check the documentation:   
+https://sass-lang.com/guide  
+https://tutorialzine.com/2016/01/learn-sass-in-15-minutes  
 - Place .scss files in a seperate folder
