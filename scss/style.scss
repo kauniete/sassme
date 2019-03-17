@@ -1,0 +1,48 @@
+@import "partial";
+
+/*nesting*/
+ul {
+  list-style: none;
+
+  li {
+    margin: 0;
+    display: inline;
+
+    a {
+      text-decoration: none;
+      color: #d3a91f;
+      &:hover {
+        /* & is a parent selector*/
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+$padding: 5px;
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  background: #e3be42;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: $padding * 2; /*instead of 10px*/
+}
+
+div,
+footer,
+.myContainers {
+  background: #797979;
+  padding: $padding; /*instead of 5px*/
+}
+
+.myContainers {
+  color: #000;
+}
+
+footer {
+  padding: $padding * 4; /*instead of 20px*/
+  margin-top: 20px;
+}
